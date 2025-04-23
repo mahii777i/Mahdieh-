@@ -1,0 +1,17 @@
+public class Ezampel2_1{
+public static void main(String[] args) {
+ int i ;
+ System.out.println(" * \r");
+ for (i=0;i<2;i++)
+ {
+ 
+ System.out.print(" *");
+ }
+//برای اینکه پشت سر هم باشن باید دوتا دستور خروجی بدهیم تا با قرار دادن \r زیر هم نروند
+ System.out.println("\r");
+
+ for (i=0;i<3;i++){
+ System.out.print("* ");
+ }
+ }
+}
